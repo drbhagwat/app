@@ -1,0 +1,17 @@
+#showcase {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  background-image: url(../../images/showcase.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
