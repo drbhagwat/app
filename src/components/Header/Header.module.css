@@ -37,3 +37,26 @@
   text-decoration: underline; /* Underline on hover */
   color: #f4f4f4; /* Slightly lighter text color */
 }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    width: 100%; /* Increase width on smaller screens */
+  }
+
+  #navbar ul {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+  }
+
+  #navbar li {
+    display: block; /* Stack navbar items vertically */
+    padding: 10px 0; /* Add padding for better spacing */
+  }
+
+  #navbar a {
+    padding: 10px; /* Adjust padding for touch screens */
+  }
+}

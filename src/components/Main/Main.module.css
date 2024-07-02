@@ -1,0 +1,38 @@
+.container {
+  width: 80%; /* 80% of the viewport width */
+  margin: auto; /* Center the container */
+  overflow: hidden; /* Clear floats if any */
+}
+
+#main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    width: 100%; /* Increase width on smaller screens */
+  }
+
+  #main {
+    width: 100%; /* Increase width on smaller screens */
+    float: none;
+  }
+
+  #sidebar {
+    width: 100%; /* Increase width on smaller screens */
+    float: none;
+  }
+}
