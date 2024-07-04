@@ -1,62 +1,18 @@
 .container {
-  width: 80%; /* 80% of the viewport width */
+  width: 100%; /* 80% of the viewport width */
   margin: auto; /* Center the container */
   overflow: hidden; /* Clear floats if any */
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  float: left;
 }
 
 #mainHeader {
   background-color: coral; /* Coral background */
   color: #fff; /* White text color */
   text-align: center; /* Center the header content */
-}
-
-#navbar {
-  background-color: #333; /* Dark background */
-  color: #fff; /* White text color */
-}
-
-#navbar ul {
-  display: flex; /* Use flexbox for horizontal layout */
-  padding: 0;
-  list-style: none;
-  justify-content: space-around; /* Distribute items evenly */
-}
-
-#navbar li {
-  display: inline; /* Inline list items */
-}
-
-#navbar a {
-  color: #fff; /* White link color */
-  text-decoration: none; /* Remove underline */
-  font-size: 18px; /* Larger font size for links */
-  padding-right: 15px; /* Spacing between links */
-}
-
-#navbar a:hover {
-  text-decoration: underline; /* Underline on hover */
-  color: #f4f4f4; /* Slightly lighter text color */
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  .container {
-    width: 100%; /* Increase width on smaller screens */
-  }
-
-  #navbar ul {
-    display: flex; /* Use flexbox for horizontal layout */
-    flex-direction: column;
-    padding: 0;
-    list-style: none;
-  }
-
-  #navbar li {
-    display: block; /* Stack navbar items vertically */
-    padding: 10px 0; /* Add padding for better spacing */
-  }
-
-  #navbar a {
-    padding: 10px; /* Adjust padding for touch screens */
-  }
 }
